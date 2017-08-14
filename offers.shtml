@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Offers</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<style type = "text/css">
+		table {cellspacing:2px; cellpadding:2px; 
+		border:2px solid black;
+		font-size:12px; color:blue;}
+		th {border:2px solid black;font-size:12px; color:blue; background-color:yellow;}
+		td {border:2px solid black;font-size:12px; color:blue;}
+		tr {font-size:12px; color:blue;}
+	</style>
+
+  </head>
+  <body>
+  
+    <div id = "header">
+	<!--#include file="header.html" -->
+	</div>
+	
+	<div id="navbar">
+	<!--#include file="navbar.html" -->
+	</div>
+	
+	<div id = "content">
+	<br>
+		<table>
+		<tr>
+		<img src = "images/Cyclingcoachingbanner.jpg" width = "900" height = "160" onmouseover="description(1)" onmouseout="clearMsg()" />
+		</tr>
+		<tr><div id = "description" class ="descriptionbox">Product Description</div></tr>
+		<tr>
+		<th>Cycling Jerseys </th>
+		<th>2015 Season Cycling Jerseys</th>
+		<th>2 for E40</th>
+		<th>Bicycles </th>
+		<th>Cervelo Bikes Reduced</th>
+		<th>From E100</th>
+		<th rowspan = "4">
+		<img src = "images/Offersbanner.jpg" width = "143" height = "318" onmouseover="description(2)" onmouseout="clearMsg()" />
+		</tr>
+		<tr>
+		<td colspan = "3" cellpadding = "40">
+		<img src = "images/cycling-jerseys.png" width = "360" height = "130" onmouseover="description(3)" onmouseout="clearMsg()" />
+		</td>
+		<td colspan = "3" cellpadding = "40">
+		<img src = "images/Cervelo.png" width = "360" height = "130" onmouseover="description(4)" onmouseout="clearMsg()" />
+		</td>
+		</tr>
+		<th>Sunglasses </th>
+		<th>New Season Biko Trident Glasses</th>
+		<th>E50 each</th>
+		<th>Bicycles </th>
+		<th>Trek Bikes Reduced</th>
+		<th>From E85</th>
+		</tr>
+		<tr>
+		<td colspan = "3" cellpadding = "40">
+		<img src = "images/Glasses.png" width = "360" height = "130" onmouseover="description(5)" onmouseout="clearMsg()" />
+		</td>
+		<td colspan = "3" cellpadding = "40">
+		<img src = "images/Trek.png" width = "360" height = "130" onmouseover="description(6)" onmouseout="clearMsg()" />
+		</td>
+		</tr>
+		</table>
+	</div>
+	
+	<div id= "footer">
+	<!--#include file="footer.html" -->
+	</div>
+	
+	<script>
+	function description(picNum)
+	{
+		if(picNum == 1)
+		document.getElementById("description").innerHTML = 'Contact our Office on 091 555321 before Feb 29th for a 30% DISCOUNT!';
+		else if(picNum == 2)
+		document.getElementById("description").innerHTML = 'Look for the Discounts Symbol to avail of further Offers';
+		else if(picNum == 3)
+		document.getElementById("description").innerHTML = 'Last years Cycling Jerseys Reduced. See in store';
+		else if(picNum == 4)
+		document.getElementById("description").innerHTML = 'New Cervelo Bike Available. Discount for first 10 Purchases';
+		else if(picNum == 5)
+		document.getElementById("description").innerHTML = 'Big Reductions on Designers Sunglasses. E50 Each or 3 for E125';
+		else if(picNum == 6)
+		document.getElementById("description").innerHTML = 'Trek Bikes reduced. 15% discount until April';
+		else
+		document.getElementById("description").innerHTML = 'Product Description';
+	}
+	function clearMsg()
+	{
+		document.getElementById("description").innerHTML = 'Product Description';
+	}
+	</script>
+	
+  </body>
+</html>

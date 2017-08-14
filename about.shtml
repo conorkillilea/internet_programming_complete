@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+     <div id = "header">
+	<!--#include file="header.html" -->
+	</div>
+	
+	<div id="navbar">
+	<!--#include file="navbar.html" -->
+	</div>
+	
+	<div id = "content">
+	<br>		
+		<img src = "images/Aboutbanner.jpg" width = "900" height = "130"
+		<br> 
+		
+		<p class="quotetext"> "Grupetto" : The name given to the group of cyclists in a road cycling race who form a large group behind the leading peloton.
+		Due to the common interest in survival, the mood in the grupetto has a greater sense of camaraderie than in the main peloton. </p>
+		
+		<p>Grupetto Cycling, in business now for more than 30 years, has grown from humble beginnings 
+		as a small shop in Galway to become Ireland's biggest online bicycle store, with the Galway premises still located in the city centre. 
+		
+		Grupetto Cycling prides itself on the quality and number of brands we carry and the 
+		knowledge of the sport we've amassed and are waiting to share with every customer. We have 
+		experts across all areas of cycling, from competitive Road and MTB cycling, to the leisure 
+		cyclist and everything in between, who are always pleased to share their passion and knowledge and, 
+		we believe, this level of expertise is something that strongly marks us out against our competitors. </p>
+		
+	    <p> Our motto, we ride together, is based on our passion of getting cyclists of all levels together to enjoy cycling at its best,
+		with fellow cyclists. To promote this ethos, we organise yearly trips for groups of cyclists
+		of every standard to complete stages of the grand tours as well as trips to view the big stages.
+		We also organise weekly rides beginning from our shop. </p>
+		
+		<p> All our bicycles and equipment are available from our online store. 
+		You can also join on our trips or book an appointment with our workshop, all through this website. </p>
+		
+		<p> Please feel free to contact us for more info, the more the merrier!! </p>
+	</div>
+	<div id= "footer">
+	<!--#include file="footer.html" -->
+	</div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Submit Your Question</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+	<script src="formVerifications.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class = "form-group">
+	<form name = "questionForm" class = "basic-grey" method="post" action = "addRecord.php" >
+	    <h1>Add Form
+        <span>Add Record</span>
+		</h1>
+		<label>
+        <span>Product Name : </span>
+        <input id="productname" type="text" name="productname" placeholder = "Product" required/>
+		</label>
+		<label>
+        <span>Product Price : </span>
+        <input id="price" type="text" name="price" placeholder = "Price" required />
+		</label>
+		<label>
+        <span>No In Stock : </span>
+        <input id="stocklevel" type="text" name="stocklevel" placeholder = "No in Stock" required />
+		</label>
+		<label>
+        <span>Description : </span>
+        <input id="description" type="text" name="description" placeholder = "Description" required />
+		</label>
+		<label>
+        <span>Image Path : </span>
+        <input id="image" type="text" name="image" placeholder = "Image File" required />
+		</label>
+
+		<label>
+        <span>&nbsp;</span> 
+		<input type = "submit" class = "button" name = "addsubmit" id="addsubmit" value = "Add" />
+		<a href="http://danu6.it.nuigalway.ie/ckillilea/Assignment7/editStock.php" class="button">Cancel</a>
+		</label>
+		</form>
+</div>
+</body>
+</html>
+
+
+

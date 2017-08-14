@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Information</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+       
+	<div id = "header">
+	<!--#include file="header.html" -->
+	</div>
+	
+	<div id="navbar">
+	<!--#include file="navbar.html" -->
+	</div>
+	
+	<div id = "content">
+	<br>
+		<img src = "images/ContactUs.jpg" width = "900" height = "130">
+		<br>
+		
+		<div id = "contact">
+		<table>
+		<tr>
+		<td colspan = "2">
+		<dl>
+			<dt> Email Us: </dt>
+			<dd> <b> Sales: </b> <i> sales@gruppettocycling.ie </i> All sales inquiries, product information & availability </dd>
+			<dd> <b> Web: </b> <i> web@gruppettocycling.ie </i> Order status, change delivery address or tracking information </dd>
+			<dd> <b> Workshop: </b> <i> workshop@gruppettocycling.ie</i> Service, warranty and spare parts inquiries </dd>
+			<dd> <b> Careers: </b> <i> conor@gruppettocycling.ie </i>Want to join our team? Send us your CV and Application Form </dd>
+			<dd> <b> Feedback:</b> <i> feedback@gruppettocycling.ie </i> Help us to improve or let us know what we're doing right </dd>
+		</dl>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<dl>
+			<dt> Call Us On: -- Or Have a Question? Click Here >></dt>
+			<dd class = "highlighttext"> Ireland : 00 353 91 555321 </dd>
+			<dd class = "highlighttext"> Fax : 091 555132 </dd>
+		<dl>
+		</td>
+		<td>
+			<a  href="http://danu6.it.nuigalway.ie/ckillilea/Assignment7/ContactUsForm.php"
+		   onclick="window.open('http://danu6.it.nuigalway.ie/ckillilea/Assignment7/ContactUsForm.php',
+		   'newwindow');return false;">
+			<img src="images/contactform.png" style="width:200px;height:60px;border:0;">
+			</a>		
+		</td>
+		<tr>
+		<td colspan = "2">
+		<dl>
+			<dt> Address: </dt>
+			<dd class = "highlighttext"> Unit 1, NUIG, Newcastle, Galway </b> </dd>
+			<br>
+			<dt> Opening Hours: </dt>
+			<dd> Monday, Tuesday, Wednesday & Saturday : 9am to 6pm </dd>
+			<dd> Thursday & Friday : 9am to 8pm </dd>
+			<dd> Sunday : 12pm to 6pm </dd>
+			<br>
+			<dt> Our People: </dt>
+			<dd> Fulfillment Executive : Sean Kelly. Phone : 091 555 533. Email : sean@gruppettocycling.ie </dd>
+			<dd> Marketing Officer : Sean Yates. Phone : 091 555 534. Email : syates@gruppettocycling.ie </dd>
+			<dd> Secretary : Betsy Andreau. Phone : 091 555 535. Email : bestsy@gruppettocycling.ie </dd>
+		</dl>
+		</td>
+		</tr>
+		</table>
+		</div>
+		</div>
+  </body>
+</html>

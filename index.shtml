@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+  
+    <div id = "header">
+	<!--#include file="header.html" -->
+	</div>
+	
+	<div id="navbar">
+	<!--#include file="navbar.html" -->
+	</div>
+	
+	<div id = "content">
+		<table cellpadding = "2" border = "1">
+		<tr colspan = "4"> 
+		<img src = "images/HomePageBanner.jpg" width = "900" height = "20" 
+		<tr>
+		<td>
+		<center>
+			<b> Fancy a trip to TDF 2015! </b> 
+			<img src = "images/Tourmalet.jpg" width = "215" height = "210"  
+		</center>
+		</td>
+		<td>
+		<center>
+			<b>Newly Renovated Workshop! </b>
+			<img src = "images/Workshop.jpg" width = "215" height = "210"
+		</center>
+		</td>
+		<td>
+		<center>
+			<b>The NEW La Pierre Pulsium! </b> 
+			<img src = "images/bike1.png" width = "215" height = "210"
+		</center>
+		</td>
+		<td rowspan = "2"> <img src = "images/Topbrandscolumn.png" width = "205" height = "510" </td>
+		</tr>
+		<tr>
+		<td>
+		<center>
+			<b> Vacancies available!</b> 
+			<img src = "images/Career.jpg" width = "215" height = "210" 
+		</center>
+		</td>
+		<td>
+		<center>
+			<b>Top Stories! </b>
+			<img src = "images/Sagan.jpg" width = "215" height = "210"
+		</center>
+		</td>
+		<td>
+		<center>
+			<b>Website of the Month! </b> 
+			<img src = "images/Mapmyride.png" width = "215" height = "210"
+		</center>
+		</td>
+		</tr>
+		</table>
+	</div>
+	
+	<div id= "footer">
+	<!--#include file="footer.html" -->
+	</div>
+
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Information</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	
+	<script src = "formVerifications.js"></script>
+  </head>
+  <body>
+    <div id="header">
+		<center><img src = "images/Logo.jpg" width = "500" height = "145" </center>
+		<h1 style="color:#66b2ff; font-size:20px;">Grupetto Cycling &copy </h1>
+	</div>
+	
+	<div id="navbar">
+		<img src = "images/compass.jpg" width = "150" height = "150"
+		<br>
+          <ul>
+            <li>
+              <a href="http://danu6.it.nuigalway.ie/ckillilea/">Home</a>
+            </li>
+            <li>
+              <a href="http://danu6.it.nuigalway.ie/ckillilea/about.html">About Us</a>
+            </li>
+            <li>
+              <a href="http://danu6.it.nuigalway.ie/ckillilea/contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="http://danu6.it.nuigalway.ie/ckillilea/offers.html">Special Offers</a>
+            </li>
+            <li>
+              <a href="http://danu6.it.nuigalway.ie/ckillilea/links.html">Useful Links</a>
+            </li>
+          </ul>
+	</div>
+	
+	<div id = "content">
+	<br>
+		<img src = "images/ContactUs.jpg" width = "900" height = "130"
+		<dl>
+			<dt> Email Us: </dt>
+			<dd> <b> Sales: </b> <i> sales@gruppettocycling.ie </i> All sales inquiries, product information & availability </dd>
+			<dd> <b> Web: </b> <i> web@gruppettocycling.ie </i> Order status, change delivery address or tracking information </dd>
+			<dd> <b> Workshop: </b> <i> workshop@gruppettocycling.ie</i> Service, warranty and spare parts inquiries </dd>
+			<dd> <b> Careers: </b> <i> conor@gruppettocycling.ie </i>Want to join our team? Send us your CV and Application Form </dd>
+			<dd> <b> Feedback:</b> <i> feedback@gruppettocycling.ie </i> Help us to improve or let us know what we're doing right </dd>
+			<br>
+			<dt> Call Us: </dt>
+			<dd class = "highlighttext"> Ireland : 00 353 91 555321 </dd>
+			<dd class = "highlighttext"> Fax : 091 555132 </dd>
+			<br>
+			<dt> Address: </dt>
+			<dd class = "highlighttext"> Unit 1, NUIG, Newcastle, Galway </b> </dd>
+			<br>
+			<dt> Opening Hours: </dt>
+			<dd> Monday, Tuesday, Wednesday & Saturday : 9am to 6pm </dd>
+			<dd> Thursday & Friday : 9am to 8pm </dd>
+			<dd> Sunday : 12pm to 6pm </dd>
+			<br>
+			<dt> Our People: </dt>
+			<dd> Fulfillment Executive : Sean Kelly. Phone : 091 555 533. Email : sean@gruppettocycling.ie </dd>
+			<dd> Marketing Officer : Sean Yates. Phone : 091 555 534. Email : syates@gruppettocycling.ie </dd>
+			<dd> Secretary : Betsy Andreau. Phone : 091 555 535. Email : bestsy@gruppettocycling.ie </dd>
+		</dl>
+		
+
+		<form name = "questionForm">
+		<br>
+		Contact Us! <br>
+		<table border = "0">
+		<tr>
+		<td>
+		Question Category: <br>
+		<select name = "Category">
+				<option value = "sales">Sales</option>
+				<option value = "returns">Returns</option>
+				<option value = "shipping">Shipping</option>
+				<option value = "trips">Trips</option>
+				<option value = "weekly">Weekly Cycles</option>
+				<option value = "workshop">Workshop</option>
+				<option value = "other">Other</option>
+		</td>
+		<td rowspan = "3">
+		Question: <br>				
+		<textarea name = "question" rows = "10" cols = "30">Enter Question here!        (Min 25 Characters)</textarea>
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		Name: (Min 10 Characters)<br> 
+		<input type = "text" size = "30" value = "Enter Name" name = "customername"/><br>
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		Email Address: <br>
+		<input type = "text" size = "30" value = "Enter Email" name = "email"/><br>
+		</td>
+		</tr>
+		<tr>
+		<td colspan = "2">			
+		<center><input type = "submit" name = "questionsubmit" value = "Submit" onClick = "validateForm(email, question, customername)"/> </center>
+		</td>
+		</tr>
+		</table>
+		</form>
+		</div>
+	
+	<!-- <div id= "footer"><img src = "images/Footer.jpg" width="1100" height="100" </div> -->
+  </body>
+</html>

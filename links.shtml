@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Useful Links</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <div id = "header">
+	<!--#include file="header.html" -->
+	</div>
+	
+	<div id="navbar">
+	<!--#include file="navbar.html" -->
+	</div>
+	
+	<div id = "content">
+	<br>
+		<img src = "images/Newsletter.jpg" width = "900" height = "130"
+		<br>
+		<h3 class="emailtext"> Enter your Email to receive our weekly newsletter: 
+		<input type = "text" size = "30" value = "Email Address" name = "newsletter"
+		<br>
+		<input type = "submit" name = "newssubmit" value = "Submit"
+		<br>
+		</h3>
+			<dl> 
+			<dt> Fancy Taking on a Tour Stage in 2016? </dt>
+			<dd> <a target = "_blank" href = "http://www.thomsonbiketours.com/index.html"> Thomson Bike Tours<br> </a>
+			Visit our Partners Thomson Bike Tours to see our Trips for 2016 to the Grand Tours!! </dd>
+			<br>
+			<dt> Sticky Bottle </dt>
+			<dd> <a target = "_blank" href = "http://www.stickybottle.com/"> Sticky Bottle <br> </a>
+			All news, results and stories from the world of Cycling in Ireland! </dd>
+			<br>
+			<dt> Union Cycliste Internationale</b> </dt>
+			<dd> <a target = "_blank" href = "http://www.uci.ch/"> UCI<br> </a>
+			The Cycling world governing bodies home page with all the info on world cycling </dd>
+			<br>
+			<dt> Bicycling.com</b> </dt>
+			<dd> <a target = "_blank" href = "http://www.bicycling.com/"> Bicycling.com <br> </a>
+			The premier cycling website and magazine! </dd>
+			<br>
+			<dt> Fancy something different</b> </dt>
+			<dd> <a target = "_blank" href = "http://bigringriding.com/"> Big Ring Riding<br> </a>
+			As this attitudinal, photo-driven, profanity-laced homage to hardening up proclaims on the home page, 
+			"It's not just a chainring, it's a state of mind. </dd>
+		</div>
+			
+	<div id= "footer">
+	<!--#include file="footer.html" -->
+	</div>
+  </body>
+</html>

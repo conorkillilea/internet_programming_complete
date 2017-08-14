@@ -1,0 +1,229 @@
+html { 
+  background: url(images/backgroundimage2.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  }
+  
+img {float:top;
+	margin: 2px 2px 0 0;}
+  
+h2,h3 {font-family:Sans-serif; font-size:15px;}
+
+body {font-family:Sans-serif; 
+	  font-size:15px;
+	  color: black;
+	  margin-bottom: 120px;}
+		
+ul {font-family:Sans-serif; font-size:15px;
+	font-weight:bold;
+	list-style-type:none;}
+
+li {font-size:18px; font-weight:bold;}
+	
+dt {font-family:Sans-serif; font-size:15px;
+	font-weight:bold;}
+	
+p {font-family:Sans-serif; font-size:15px; text-align:Justify;}
+	
+a:link{color:yellow;}
+a:visited{color:purple;}
+a:hover{color:green;}
+a:active{color:red;}
+
+#header {border:1px;
+		position:static;
+		padding-left:60px;
+		width:1100px;
+		height:150px;}		
+
+#navbar {border:1px;
+		position:absolute;
+		width:200px;
+		height:550px;
+		top:300px;}
+		
+#content {border:1px;
+		position:absolute;
+		width:900px;
+		height:550px;
+		top:200px;
+		left:210px;}
+		
+#footer {border:1px;
+		position:absolute;
+		width:1100px;
+		height:150px;
+		top:375px;}
+		
+#contact {position:absolute;}
+
+.editbutton{
+	border-radius: 40px;
+	background-color: white;
+	color: black;
+	border: 2px solid #f44336;
+}
+
+ .textbox { 
+    border: 1px dotted #000000; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+  } 
+
+
+.highlighttext {font-weight:700;
+				color:yellow;}
+
+.emailtext {font-style:italic;
+			color:red;}
+
+.quotetext {font-weight:bold;
+			font-style:italic;
+			font-size:18px;
+			color:#66b2ff;}	
+			
+.clockBox {
+	width:100px;
+	font-size:20px;
+	font-family:"Sans-serif", Verdana, serif;
+	font-weight:bold;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.descriptionbox {
+	width:900px;
+	height:30px;
+	font-size:20px;
+	border:2px;
+	color:blue;
+	text-align:center;
+	font-weight:bold;
+}
+
+.redText{color: red;}
+			
+			/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+.tabs {
+margin:  0;
+padding: 0;
+list-style: none;
+display: table;
+table-layout: fixed;
+width: 20%; 
+}
+
+.tabs__item {
+	display: table-cell;
+}
+
+.tabs__link {
+	display: block;
+}
+
+.primary-nav {
+text-align: center;
+border-radius: 4px;
+overflow: hidden;
+}
+
+.primary-nav a {
+		padding: 1em;
+		background-color: #0000FF;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none;
+}
+
+.primary-nav a:hover {
+		background-color: #C0C0C0;
+	}
+
+
+
+
+
